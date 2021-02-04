@@ -1,5 +1,5 @@
 # ZilliqaVanity
-Generate Vanity Addresses for the Zilliqa Network
+Generate Vanity Addresses for Zilliqa Using Python
 https://www.github.com/frog357/zilliqa-vanity/
 
 This is work based on Vanity-Cosmos found here:

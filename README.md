@@ -9,8 +9,7 @@ https://github.com/etimoz/vanity-cosmos
 Please review the license before use, there is no warranty implied. The code is simple to audit and understand. You do not need to be connected to the internet to generate a vanity address. This code is not optimized, it is just working. I desired to have a Vanity Zilliqa address and I set out to accomplish it. Turns out, this had not yet existed for Zilliqa. Try as I might, I could not make any of the existing solutions work for Zilliqa. I had to make my own.
 
 
-I plan to make some cool stuff for the Zilliqa Community, I'm just getting started.
-Visit my website to learn more.
+Visit my website for more Zilliqa related tools and information.
 https://zilf.red
 
 
@@ -27,29 +26,34 @@ https://zilf.red
 
 ## Before You Begin
 Install Pre-Reqs:
-sudo pip install -U pyzil
+sudo pip3 install -U setuptools eth-hash
+sudo pip3 install -U setuptools pyzil
 or
-sudo pip3 install -U pyzil
+sudo pip install -U setuptools eth-hash
+sudo pip install -U setuptools pyzil
+
+
+If you don't have python3 or pip3, you can try:
+sudo apt install python3-pip
 
 
 ## Usage
 Look for an address that starts with "00000" (e.g. zil100000v3fpv4qg2a9ea6sj70gykxpt63wgjen2p)
 ```
-python -m zilliqavanity --startswith 00000
+python3 -m zilliqavanity --startswith 00000
 ```
 
 Look for an address that ends with "8888" (e.g. zil134dck5uddzjure8pyprmmqat96k3jlypn28888)
 ```
-python -m zilliqavanity --endswith 8888
+python3 -m zilliqavanity --endswith 8888
 ```
 
 Look for an address containing the substring "mystring" (e.g. zil1z39wmystringah22s5a3pyswtnjkx2w0hvn3rv)
 ```
-python -m zilliqavanity --contains mystring
+python3 -m zilliqavanity --contains mystring
 ```
+You might have to substitue python3 for python.
 
-
-You might have to substitue python for python3 if you have multiple versions installed.
 
 
 An example of a vanity address I created for myself using this tool:

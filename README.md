@@ -52,7 +52,7 @@ Look for an address containing the substring "mystring" (e.g. zil1z39wmystringah
 ```
 python3 -m zilliqavanity --contains mystring
 ```
-You might have to substitue python3 for python.
+You might have to substitute python3 for python.
 
 
 

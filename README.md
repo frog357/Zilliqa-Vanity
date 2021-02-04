@@ -26,16 +26,20 @@ https://zilf.red
 
 ## Before You Begin
 Install Pre-Reqs:
+```
 sudo pip3 install -U setuptools eth-hash
 sudo pip3 install -U setuptools pyzil
+```
 or
+```
 sudo pip install -U setuptools eth-hash
 sudo pip install -U setuptools pyzil
-
+```
 
 If you don't have python3 or pip3, you can try:
+```
 sudo apt install python3-pip
-
+```
 
 ## Usage
 Look for an address that starts with "00000" (e.g. zil100000v3fpv4qg2a9ea6sj70gykxpt63wgjen2p)
@@ -57,9 +61,11 @@ You might have to substitute python3 for python.
 
 
 An example of a vanity address I created for myself using this tool:
-
+```
 zil1fredmczkfemd2wvc9z75azclf9hwysewzyxjaf
-
+```
 zil1fred :)P
+
+
 
 contact me at zilliqafred@gmail.com
